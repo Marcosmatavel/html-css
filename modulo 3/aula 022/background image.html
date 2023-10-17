@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playin' with bg image</title>
+    <style>
+        div.quadrado{
+            display: inline-block;
+            border: 3px solid rgba(0, 0, 0, 0.813);
+            border-radius: 5px;
+            background-color: silver;
+            height: 350px;
+            width: 350px;
+        }
+
+        div#q1{
+            background-color: aqua;
+        }
+
+        div#q2{
+            background-image: linear-gradient(90deg, yellow, orange 100px , red);
+        }
+
+        div#q3{
+            background-image: url('imagens/pattern001.png');
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
+</body>
+</html>

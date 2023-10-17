@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: chocolate;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgba(0, 74, 160, 0.937);
+        }
+        a:hover{
+            color: saddlebrown;
+            text-decoration: underline overline;
+        }
+        a:active{
+            color: sienna;
+        }
+        a::after{
+            content: "←";
+        }
+        a::before{
+            content: "→";
+        }
+        /*
+        #    = id
+        .    = class
+        :    = psuedo-class
+        ::   = pseudo-element
+        
+        */
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a target="_blank" rel="external" href="https://www.facebook.com/">Site do FaceBook</a></li>
+        <li><a target="_blank" rel="external" href="https://www.youtube.com">Canal do YouTube</a></li>
+        <li><a target="_blank" rel="external" href="https://www.cursoemvideo.com">Canal do cursoemvideo</a></li>
+    </ul>
+</body>
+</html>

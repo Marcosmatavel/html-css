@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    font: normal 17px verdana;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: end;
+}
+
+p{
+    text-align: justify;
+    text-indent: 35px;
+}

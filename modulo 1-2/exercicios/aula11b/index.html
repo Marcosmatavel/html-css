@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagen dinamica</h1>
+    <p>Tente abrir este site em varios despositivos diferente ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:275px )" srcset="imagens/dark.png" type="image/png">
+        <source media="(max-width: 1111px )" srcset="imagens/net.jpg" type="image/jpg">
+        <img src="imagens/educação.jpg" alt="Gestao da informacao no brain">
+    </picture>
+    <h2>Reproduzindo audio </h2>
+    <p>Vamos aprender a reproduzir audios no <strong>HTML</strong></p>
+    <audio preload="auto" autoplay controls loop>
+        <source src="Chunda_Munki_-_Without_You_(Original_Mix)(M4A_128K).m4a" type="audio/mpeg">
+    </audio>
+    <audio src="cradles-lyrics.mp3" controls autoplay></audio>
+    
+</body>
+</html>

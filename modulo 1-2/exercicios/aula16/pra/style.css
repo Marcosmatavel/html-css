@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #ff7f50, #cd853f, #9d4f17f7 );
+    background-attachment: fixed;
+}
+main{
+    background-color: bisque;
+    margin: auto;
+    width: 500px;
+    padding: 15px;
+    border-radius: 35px;
+    box-shadow: 5px 5px 5px black;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px burlywood;
+}
+
+p{
+    color: rgba(128, 1, 49, 0.776);
+    font-size: 20pt;
+    text-align: justify;
+}
+
+
+u{
+    font-size: 1em;
+    background-color: white;
+    text-shadow: none;
+}
+
+.moradia{
+    background-color: bisque;
+}
